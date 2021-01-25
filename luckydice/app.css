@@ -68,3 +68,8 @@ ul{
   .fa-instagram {  
     color: white;  
   } 
+.footer{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+  }
