@@ -1,0 +1,70 @@
+body{
+    
+   /* background-color: #2d6a4f;*/
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+    border-radius: 4px;
+    height: 100%;
+}
+.bg{
+    background-image: url("bg1.jpg");
+    height: 100%;
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#block1, #block2{
+   /* background-color: #40916c;*/
+   border: 1px solid white; 
+   border-radius: 20px;
+   background-color: rgb(84, 11, 14,0.2);
+}
+
+.danger{
+    background-color: #d00000;
+    color: white;
+    border: 1px solid white;
+}
+.stack{
+    background-color: #370617;
+    color: white;
+    border: 1px solid white;
+}
+h3 a{
+    background-color: #006466;
+    color: #d8f3dc;
+}
+
+@media(max-width:500px){
+    h3, h4{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:400px){
+    #stack1,#stack2{
+        margin-top: 20px;
+    }
+}
+
+.hide{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+}
+.cancel:hover{
+    color: #d8f3dc;
+}
+.fa {    
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }
+
+  .fa-instagram {  
+    color: white;  
+  } 
