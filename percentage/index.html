@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calc</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha.84-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="app.css">
+</head>
+<body class="bg">
+    <div class="container">
+        <div class="row justify-content-center align-item-center">
+            <div class="col-8 col-md-6 blur">
+    <h1>Percentage Calculator</h1>
+    <form action="#" id="percentageForm">
+        <label for="value" class="my-4">
+            Amount :
+        </label>
+        <input type="number" id="value" >
+        <br>
+        <label for="percentage" class="mb-4">
+            Percentage :
+        </label>
+        <input type="number" id="percentage" min="0" max="100">
+        <br>
+        <button class="btn btn-dark p-2" id="calc">Calculate</button>
+        <button class="btn btn-dark p-2 ml-2" id="reset">Reset</button>
+    </form>
+    
+        
+    <h2 id="answer" class="m-."></h2>
+    <h6 class="footer text-end">
+        Contact Developer @ <a href="https://www.instagram.com/surya__13__/" class="fa fa-instagram"></a>
+    </h6>
+</div>
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
