@@ -3,7 +3,7 @@ body{
    /* background-color: #2d6a4f;*/
     color: white;
     font-family: 'Roboto', sans-serif;
-    
+    min-height: 100vh;
     border-radius: 4px;
     height: 100%;
 }
@@ -68,3 +68,8 @@ ul{
   .fa-instagram {  
     color: white;  
   } 
+.footer{
+      position: fixed;
+      right: 0;
+      bottom: 0;
+  }
