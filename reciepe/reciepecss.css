@@ -1,0 +1,64 @@
+body{
+        height: 100%;
+        
+        color: white;
+        /* The image used */
+        background-image: url("./bg.jpg");
+      
+
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    
+        font-family: 'Roboto',sans-serif;
+        
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.ingredient ol{
+    text-align: center;
+    list-style-position: inside;
+}
+.ingredient li{
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.steps ul{
+    list-style: none;
+}
+
+.steps li{
+
+    display: block;
+    margin: 20px;
+    font-size: 1.5rem;
+
+}
+.ref{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

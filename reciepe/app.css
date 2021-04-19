@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: white;
+    margin: 40px 0;
+    font-size: 3rem;
+}
+ul{
+    margin: 20px 40px;
+    padding: 0px;
+    
+}
+li{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+    
+    color: white;
+    /* The image used */
+    background-image: url("./bg.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+}
